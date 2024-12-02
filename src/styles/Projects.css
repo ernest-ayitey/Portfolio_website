@@ -1,0 +1,73 @@
+/* src/styles/Projects.css */
+/* .projects {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.projects p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.work-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.work-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.work-item img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.work-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.work-item p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.technologies {
+  margin: 10px 0;
+}
+
+.tech-tag {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.work-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.work-item a:hover {
+  text-decoration: underline;
+} */

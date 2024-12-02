@@ -1,0 +1,45 @@
+/* src/styles/WorkItem.css */
+.work-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.work-item img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.work-item h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.work-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.technologies {
+  margin: 10px 0;
+}
+
+.tech-tag {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.work-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.work-item a:hover {
+  text-decoration: underline;
+}
