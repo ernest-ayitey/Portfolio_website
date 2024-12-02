@@ -1,0 +1,40 @@
+/* src/styles/Contact.css */
+.contact-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.contact-info,
+.social-links,
+.contact-form-section {
+  margin-bottom: 40px;
+}
+
+.contact-info h2,
+.social-links h2,
+.contact-form-section h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.contact-info ul,
+.social-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li,
+.social-links li {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}

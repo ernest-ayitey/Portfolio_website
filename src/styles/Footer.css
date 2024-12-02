@@ -1,0 +1,127 @@
+.footer {
+  background-color: var(--background-color-light);
+  padding: 10px 0;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme change */
+}
+.social-link {
+  color: inherit; /* Inherit color based on the current theme */
+  transition: color 0.3s ease;
+}
+.social-link:hover {
+  color: #b3b3b3; /* Adjust hover color for both themes */
+}
+.icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  fill: currentColor; /* Icons will inherit the current text color */
+}
+
+.logo_theme_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+.logo,
+.switcher {
+  display: flex;
+  align-items: center;
+}
+.switcher {
+  justify-content: flex-end;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: bold;
+  top: 0;
+}
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-text {
+  font-size: 0.875rem;
+  color: inherit; /* Inherit color based on the current theme */
+  align-items: center;
+}
+.social-links,
+.footer-text {
+  display: flex;
+}
+.socials {
+  margin: 0;
+  padding: 0;
+  left: 0;
+}
+/* author and text-color */
+
+.author-name {
+  color: #3b82f6; /* Consistent color for the author's name */
+}
+
+/* the theme */
+.theme-switcher {
+  display: flex;
+  gap: 0.75rem; /* Increase gap for better spacing */
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem; /* Add padding for theme switcher container */
+  border: 1px solid currentColor; /* Adjusted to theme color */
+  border-radius: 50px;
+  transition: border-color 0.3s ease;
+}
+
+.theme-button {
+  padding: 0.5rem; /* Larger padding for better button size */
+  border-radius: 50%; /* Fully rounded buttons */
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Add smooth hover effect */
+  color: inherit; /* Icons inherit the theme's color */
+}
+.dark-theme .footer {
+  background-color: var(--background-color-dark); /* Adapt to dark theme */
+  color: var(--text-color-dark); /* Adapt to dark theme text color */
+}
+.light-theme .footer {
+  background-color: var(--background-color-light); /* Adapt to dark theme */
+  color: var(--text-color-light);
+}
+.theme-button:hover {
+  background-color: var(
+    --hover-color-light
+  ); /* Default hover color for light theme */
+  transform: scale(1.1); /* Scale up on hover */
+}
+
+.dark-theme .theme-button:hover {
+  background-color: var(--hover-color-dark); /* Hover color for dark theme */
+}
+
+.dark-theme .theme-switcher {
+  border-color: white; /* Adjust border for dark theme */
+}
+
+.light-theme .theme-switcher {
+  border-color: black; /* Adjust border for light theme */
+}
+
+.dark-theme .theme-switcher .theme-button {
+  color: white; /* Set icon color to white in dark theme */
+}
+
+.light-theme .theme-switcher .theme-button {
+  color: black; /* Set icon color to black in light theme */
+}
