@@ -1,7 +1,7 @@
 import React from "react";
 import { User } from "lucide-react";
 import "../styles/About.css"; // Ensure the path is correct
-import profileImage from "../assets/images/okoyecharles.jpeg"; // Adjust the path if needed
+import profileImage from "../assets/images/74d1affb-3ed8-4928-b70a-104af6a8ab1b.jpeg"; // Adjust the path if needed
 
 const About = () => {
   return (
@@ -27,7 +27,7 @@ const About = () => {
             My goal is to deliver, through code, unique and innovative solutions
             to complex problems. If my portfolio interests you, or you need an
             enthusiastic developer on your team,{" "}
-            <a href="#" className="text-blue-500 hover:underline">
+            <a href="/" className="text-blue-500 hover:underline">
               I am available for hire
             </a>
             .

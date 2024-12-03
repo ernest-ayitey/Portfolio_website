@@ -3,7 +3,7 @@ import { Award, ChevronLeft, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 // Import images
-import microverseImage from "../assets/images/images.png";
+import microverseImage from "../assets/images/free_code_camp.png";
 import universityOfMinnesotaImage from "../assets/images/uofm-logo.png";
 import linkedinLearningImage from "../assets/images/linkedin-learning-logo.png";
 
@@ -19,7 +19,8 @@ const ExperienceTimeline = ({ theme }) => {
       title: "Remote Developer Bootcamp",
       description:
         "Developed skills in remote pair programming using GitHub, industry-standard git-flow, and daily standups. Mastered algorithms, data structures, and full-stack development.",
-      certificateLink: "#",
+      certificateLink:
+        "https://www.freecodecamp.org/certification/fcc41837fba-6f65-42c1-921c-b93cbfeee359/javascript-algorithms-and-data-structures",
     },
     {
       date: "Apr - Jul 2023",
