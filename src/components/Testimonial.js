@@ -10,7 +10,7 @@ const testimonials = [
     lat: 51.2538,
     lng: -85.3232,
     image: clifImage,
-    text: "Charles and I worked together on a couple of projects, and I appreciate his skills and discipline. He has the focus and skills that keep him and his team productive during intense crunch periods. I couldn't recommend him more for any business looking for new talent.",
+    text: "Ernest and I worked together on a couple of projects, and I appreciate his skills and discipline. He has the focus and skills that keep him and his team productive during intense crunch periods. I couldn't recommend him more for any business looking for new talent.",
   },
   {
     name: "Ishpaul Singh",
@@ -19,16 +19,16 @@ const testimonials = [
     lat: 28.6139,
     lng: 77.209,
     image: clifImage,
-    text: "Charles is very knowledgeable when it comes to working with software tools and technologies, and he is also a very fast learner. I really enjoyed our pair-programming sessions together, as he was a helpful and understanding team member.",
+    text: "Ernest is very knowledgeable when it comes to working with software tools and technologies, and he is also a very fast learner. I really enjoyed our pair-programming sessions together, as he was a helpful and understanding team member.",
   },
   {
-    name: "Sidney Kaguli",
+    name: "Ghinger Wellness",
     role: "Full-Stack Developer",
-    location: "Nairobi County, Kenya",
+    location: "Accra, Ghana",
     lat: 30.2921,
     lng: 36.8219,
     image: clifImage,
-    text: "I had the pleasure of working with Charles on a three-week project (with 3 other members), a full-stack reservation app with React and Rails. I was particularly impressed by Charles' ability to handle challenges, whether it's getting to the root of buggy code or getting people on board with ideas.",
+    text: "Working with Ernest was one of the best decisions we made. They brought an innovative approach, consistently communicated throughout the process, and exceeded all our expectations. The final result speaks volumes about their talent and dedication.",
   },
 ];
 

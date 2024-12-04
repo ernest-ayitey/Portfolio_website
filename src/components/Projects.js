@@ -1,51 +1,54 @@
 import React from "react";
 import { ExternalLink } from "lucide-react";
-
+import dstoreImage from "../assets/images/wms_guide_hero.png"; // Adjust the path if needed
+import todoImage from "../assets/images/Screenshot from 2024-12-04 09-27-32.png";
+import wellnessImage from "../assets/images/Screenshot from 2024-12-04 09-36-00.png";
+import qrImage from "../assets/images/Screenshot from 2024-12-04 09-39-40.png";
+import blogImage from "../assets/images/Screenshot from 2024-12-04 09-41-13.png";
+import businessImage from "../assets/images/Screenshot from 2024-12-04 09-42-28.png";
 const projects = [
   {
-    title: "Buggo",
-    description: "A real-time bug tracking application with advanced features.",
-    technologies: ["Next.js", "Redux", "Node.js", "MongoDB"],
-    imageUrl: "/path-to-image.jpg",
-    projectUrl: "#",
+    title: "Dstore",
+    description:
+      "A real-time inventory tracking application with advanced features.",
+    technologies: ["Ruby on rails", "javascript", "Mysql", "bootstrap5"],
+    imageUrl: dstoreImage,
+    projectUrl: "https://dstore.devdexsoftware.com",
   },
   {
     title: "Todo",
     description: "A real-time todo application with advanced features.",
     technologies: ["HTML5", "CSS3"],
-    imageUrl: "/path-to-image.jpg",
+    imageUrl: todoImage,
     projectUrl: "#",
   },
   {
-    title: "Amazon Clone",
+    title: "GHINGER WELLNESS",
     description:
-      "Explore an Amazon-inspired clone website with authentication, purchase capabilities, and a Redux-powered cart system.",
-    technologies: ["React", "Firebase", "Stripe"],
-    imageUrl: "/path-to-image.jpg",
+      "Discover a holistic approach to health and happiness with Ghinger Wellness, your personal wellness companion.",
+    technologies: ["Ruby on rails", "mysql", "tailwind"],
+    imageUrl: wellnessImage,
     projectUrl: "#",
   },
   {
-    title: "Save A Child",
-    description:
-      "Explore an Amazon-inspired clone website with authentication, purchase capabilities, and a Redux-powered cart system.",
+    title: "PRODUCT PREVIEW CARD",
+    description: "Explore an inspired frontend mentor project.",
     technologies: ["HTML5", "CSS", "JavaScript"],
-    imageUrl: "/path-to-image.jpg",
+    imageUrl: blogImage,
     projectUrl: "#",
   },
   {
-    title: "Save A Child",
-    description:
-      "Explore an Amazon-inspired clone website with authentication, purchase capabilities, and a Redux-powered cart system.",
-    technologies: ["HTML5", "CSS", "JavaScript"],
-    imageUrl: "/path-to-image.jpg",
+    title: "BUSINESS CARD ",
+    description: "Frontend mentor project.",
+    technologies: ["HTML5", "CSS"],
+    imageUrl: businessImage,
     projectUrl: "#",
   },
   {
-    title: "Save A Child",
-    description:
-      "Explore an Amazon-inspired clone website with authentication, purchase capabilities, and a Redux-powered cart system.",
-    technologies: ["HTML5", "CSS", "JavaScript"],
-    imageUrl: "/path-to-image.jpg",
+    title: "QR CODE COMPONENT",
+    description: "Frontend Mentor - QR code component",
+    technologies: ["HTML5", "CSS"],
+    imageUrl: qrImage,
     projectUrl: "#",
   },
   // Add more projects here

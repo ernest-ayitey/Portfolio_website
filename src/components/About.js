@@ -39,12 +39,12 @@ const About = () => {
                 {[
                   "JavaScript",
                   "TypeScript",
-                  "Python",
+                  "Ruby On Rails",
                   "React",
                   "Next.js",
                   "Express.js",
-                  "MongoDB",
-                  "Firebase",
+                  "Mysql",
+                  "Postgresql",
                 ].map((item) => (
                   <li key={item}>
                     <span></span>
@@ -61,6 +61,8 @@ const About = () => {
                   "Figma",
                   "Spline",
                   "Vercel",
+                  "Netlify",
+                  "Digital Ocean",
                   "Responsive Development",
                 ].map((item) => (
                   <li key={item}>

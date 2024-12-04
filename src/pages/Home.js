@@ -51,12 +51,12 @@ const HomeContainer = styled.div`
 
 const MyLogo = styled.div`
   font-size: 40px;
-  margin-top: -30px;
-  text-align: center;
+  margin-top: -60px;
+  // text-align: center;
 
   @media (max-width: 768px) {
     font-size: 32px;
-    margin-top: -20px;
+    margin-top: -50px;
   }
 
   @media (max-width: 480px) {
