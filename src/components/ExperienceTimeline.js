@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 // Import images
 import microverseImage from "../assets/images/free_code_camp.png";
-import universityOfMinnesotaImage from "../assets/images/uofm-logo.png";
+import universityOfMinnesotaImage from "../assets/images/Screenshot from 2024-12-04 10-56-18.png";
 import linkedinLearningImage from "../assets/images/linkedin-learning-logo.png";
 
 const ExperienceTimeline = ({ theme }) => {
@@ -12,10 +12,10 @@ const ExperienceTimeline = ({ theme }) => {
 
   const experiences = [
     {
-      date: "May 2022",
+      date: "Sept 2024",
       logo: microverseImage,
-      altText: "Microverse Logo",
-      institution: "Microverse",
+      altText: "loughborough Logo",
+      institution: "Free Code Camp",
       title: "Remote Developer Bootcamp",
       description:
         "Developed skills in remote pair programming using GitHub, industry-standard git-flow, and daily standups. Mastered algorithms, data structures, and full-stack development.",
@@ -23,13 +23,13 @@ const ExperienceTimeline = ({ theme }) => {
         "https://www.freecodecamp.org/certification/fcc41837fba-6f65-42c1-921c-b93cbfeee359/javascript-algorithms-and-data-structures",
     },
     {
-      date: "Apr - Jul 2023",
+      date: "Sept 2024",
       logo: universityOfMinnesotaImage,
-      altText: "University of Minnesota Logo",
-      institution: "University of Minnesota",
+      altText: "University of Loughborough Logo",
+      institution: "University of Loughborough",
       title: "Software Development Methodologies",
       description:
-        "An online non-credit course authorized by the University of Minnesota and offered through Coursera, on Important Processes and Methodologies in Software Development.",
+        "An online non-credit course authorized by the University of Loughborough and offered through Coursera, on Important Processes and Methodologies in Healthcare Digitalization.",
       certificateLink: "#",
     },
     {
