@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8d4c846.css",
+    "main.js": "/static/js/main.d445ce0a.js",
+    "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
+    "static/media/Screenshot from 2024-12-04 09-36-00.png": "/static/media/Screenshot from 2024-12-04 09-36-00.0da605172a8b8393d8e0.png",
+    "static/media/earth-black.png": "/static/media/earth-black.d8f568f475f3c1644f77.png",
+    "static/media/wms_guide_hero.png": "/static/media/wms_guide_hero.aba2eb4e57eccced70ab.png",
+    "static/media/free_code_camp.png": "/static/media/free_code_camp.e81d712f05f534110832.png",
+    "static/media/Screenshot from 2024-12-04 09-41-13.png": "/static/media/Screenshot from 2024-12-04 09-41-13.7c661eff19227f6d6d3f.png",
+    "static/media/74d1affb-3ed8-4928-b70a-104af6a8ab1b.jpeg": "/static/media/74d1affb-3ed8-4928-b70a-104af6a8ab1b.bfbe69964cb41be4be60.jpeg",
+    "static/media/Screenshot from 2024-12-04 09-42-28.png": "/static/media/Screenshot from 2024-12-04 09-42-28.315bd0f1e6dc2d6b2d10.png",
+    "static/media/Screenshot from 2024-12-04 09-27-32.png": "/static/media/Screenshot from 2024-12-04 09-27-32.82d980ff145126db60ab.png",
+    "static/media/Screenshot from 2024-12-04 09-39-40.png": "/static/media/Screenshot from 2024-12-04 09-39-40.1f803cc8d65897b35970.png",
+    "index.html": "/index.html",
+    "main.c8d4c846.css.map": "/static/css/main.c8d4c846.css.map",
+    "main.d445ce0a.js.map": "/static/js/main.d445ce0a.js.map",
+    "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8d4c846.css",
+    "static/js/main.d445ce0a.js"
+  ]
+}

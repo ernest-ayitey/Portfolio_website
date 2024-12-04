@@ -18,18 +18,18 @@ const InputField = ({
       value={value}
       onChange={onChange}
       required={required}
-      className={`block w-full px-3 py-2 text-gray-900 bg-transparent border-b-2 appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 ${
+      className={`block w-full px-4 py-3 text-gray-900 bg-gray-50 border rounded-lg shadow-sm appearance-none dark:text-white dark:bg-gray-700 dark:border-gray-600 focus:outline-none focus:ring-2 ${
         errorMessage
-          ? "border-red-500"
-          : "border-gray-300 dark:focus:border-blue-500 focus:border-blue-600"
+          ? "border-red-500 focus:ring-red-400"
+          : "border-gray-300 focus:ring-blue-400"
       }`}
       placeholder=" "
     />
     <label
       htmlFor={name}
-      className={`absolute text-sm duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 ${
+      className={`absolute text-sm duration-300 transform -translate-y-3 scale-75 top-3 left-4 origin-[0] bg-gray-50 px-1 dark:bg-gray-700 ${
         errorMessage ? "text-red-500" : "text-gray-500 dark:text-gray-400"
-      } peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6`}
+      } peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-3 peer-placeholder-shown:left-4 peer-focus:scale-75 peer-focus:-translate-y-3 peer-focus:left-4`}
     >
       {label}
     </label>
@@ -140,20 +140,20 @@ const ContactForm = () => {
               value={formData.message}
               onChange={handleChange}
               required
-              className={`block w-full px-3 py-2 text-gray-900 bg-transparent border-b-2 appearance-none dark:text-white dark:border-gray-600 focus:outline-none focus:ring-0 ${
+              className={`block w-full px-4 py-3 text-gray-900 bg-gray-50 border rounded-lg shadow-sm appearance-none dark:text-white dark:bg-gray-700 dark:border-gray-600 focus:outline-none focus:ring-2 ${
                 errors.message
-                  ? "border-red-500"
-                  : "border-gray-300 dark:focus:border-blue-500 focus:border-blue-600"
+                  ? "border-red-500 focus:ring-red-400"
+                  : "border-gray-300 focus:ring-blue-400"
               }`}
               placeholder=" "
             ></textarea>
             <label
               htmlFor="message"
-              className={`absolute text-sm duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] ${
+              className={`absolute text-sm duration-300 transform -translate-y-3 scale-75 top-3 left-4 origin-[0] bg-gray-50 px-1 dark:bg-gray-700 ${
                 errors.message
                   ? "text-red-500"
                   : "text-gray-500 dark:text-gray-400"
-              } peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6`}
+              } peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-3 peer-placeholder-shown:left-4 peer-focus:scale-75 peer-focus:-translate-y-3 peer-focus:left-4`}
             >
               Message
             </label>
@@ -164,7 +164,7 @@ const ContactForm = () => {
           <button
             type="submit"
             disabled={status === "submitting"}
-            className="w-full flex justify-center items-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200"
+            className="w-full flex justify-center items-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200"
           >
             {status === "submitting" ? (
               <>
